@@ -1,3 +1,10 @@
 spring:
+  profiles:
+    active: dev
+
   application:
     name: fly-ci-cd
+
+logging:
+  level:
+    io.river.back: debug
